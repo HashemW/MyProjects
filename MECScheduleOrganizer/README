@@ -1,0 +1,5 @@
+This was a little project done by me for the University of Maryland Equestrian Club, every semester they usually have to deal with creating a schedule
+with the availability times of around 30 people and it can be a huge mess, so I created a program with a GUI for them to just put in everyone's name and 
+availability, and the application just sets the schedule. I will be honest this is code I wrote in the middle of the night during a stressful semester, so it
+is not efficient or the best in any way. I just wanted to get it done ASAP to help them out while also trying my best with the little time I had, and it does its job. 
+I have also attached a PDF of the directions I sent them if you want to read it with the project code (It is in Java).
