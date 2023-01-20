@@ -1,0 +1,26 @@
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = ARA
+		victory_points = {
+			12758 8 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		add_core_of = ARA
+
+	}
+
+	provinces={
+		2033 4981 5099 7934 10748 10835 12758 
+	}
+	manpower=2612717
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

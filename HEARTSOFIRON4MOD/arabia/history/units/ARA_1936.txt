@@ -1,0 +1,289 @@
+division_template = {
+	name = "Alfurqat Almasha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Alfurqat Aljibal"		
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "Alfurqat Ihsan"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+
+#Baghdad#
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 2097
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 2097
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Mosul#
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 10106
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Aleppo
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 12473
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Damascus
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 4111
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 4111
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Amman
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 7151
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Jerusalem
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 1086
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Riyadh
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 12727
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 12727
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Mecca
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 4981
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+#Khuzekstan
+
+division= {
+
+	name = "Alfurqat Almasha"
+	location = 5005
+	division_template = "Alfurqat Almasha"
+	start_experience_factor = 0.1
+}
+
+
+#Khuzekstan
+
+division= {
+
+	name = "Alfurqat Aljibal"
+	location = 5005
+	division_template = "Alfurqat Aljibal"
+	start_experience_factor = 0.3
+}
+
+division= {
+
+	name = "Alfurqat Aljibal"
+	location = 7953
+	division_template = "Alfurqat Aljibal"
+	start_experience_factor = 0.3
+}
+#Kuwait
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 8085
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+
+#Basrah
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 2089
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#Beirut
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 792
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#Tel Aviv
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 4206
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#Jeddah
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 12883
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#Dammam
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 12702
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#San'aa
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 10840
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#Muscat
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 10760
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#Qatar
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 8051
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+}
+
+#UAE
+
+division= {
+
+	name = "Alfurqat Ihsan"
+	location = 7960
+	division_template = "Alfurqat Ihsan"
+	start_experience_factor = 0
+	start_equipment_factor = 0.2
+	}
+}

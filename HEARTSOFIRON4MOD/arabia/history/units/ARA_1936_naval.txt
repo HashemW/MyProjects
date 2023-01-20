@@ -1,0 +1,109 @@
+units = { 
+
+fleet = { 
+	name = "Royal Arab Navy"
+	naval_base = 2089 
+	task_force = { 
+	name = "Arab Royal Fleet"
+	location = 2089
+	ship = { name = "AS Baghdad" definition = battleship equipment = { battleship_2 = {
+	amount = 1 owner = ARA version_name = "Battleship II"
+	}	} 	}
+	ship = { name = "AS Mosul" definition = battleship equipment = { battleship_2 = {
+	amount = 1 owner = ARA version_name = "Battleship II"
+	}	}	}
+	ship = { name = "AS Dimishq" definition = battleship equipment = { battleship_2 = {
+	amount = 1 owner = ARA version_name = "Battleship II"
+	}	}	}
+	ship = { name = "AS Amman" definition = battleship equipment = { battleship_1 = {
+	amount = 1 owner = ARA version_name = "Battleship I"
+	}	}	}
+	ship = { name = "AS Aden" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Heavy Cruiser II"
+	}	}	}
+	ship = { name = "AS Tariq" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Heavy Cruiser II"
+	}	}	}
+	ship = { name = "AS Muscat" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Heavy Cruiser II"
+	}	}	}
+	ship = { name = "AS Faisal" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Heavy Cruiser II"
+	}	}	}
+	ship = { name = "AS Ghazi" definition = light_cruiser equipment = { light_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Light Cruiser II"
+	}	}	}
+	ship = { name = "AS Aden" definition = light_cruiser equipment = { light_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Light Cruiser II"
+	}	}	}
+	ship = { name = "AS Badr" definition = light_cruiser equipment = { light_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Light Cruiser II"
+	}	}	}
+	ship = { name = "AS Sidqi" definition = light_cruiser equipment = { light_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Light Cruiser II"
+	}	} 	}
+	ship = { name = "AS Aleppo" definition = light_cruiser equipment = { light_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Light Cruiser II"
+	}	}	}
+	ship = { name = "AS San'aa" definition = light_cruiser equipment = { light_cruiser_2 = {
+	amount = 1 owner = ARA version_name = "Light Cruiser II"
+	}	}	}
+	ship = { name = "AS Khalid" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Abdilah" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Aqaba" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Kirkuk" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Deir-Ez-Zoir" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Beirut" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Kuwait" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Shaam" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Baqubah" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Kurdistan" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Homs" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Hejaz" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Palestine" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Lebanon" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Jawf" definition = destroyer equipment = { destroyer_2 = {
+	amount = 1 owner = ARA version_name = "Destroyer II"
+	}	}	}
+	ship = { name = "AS Ghawassa" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 2" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 3" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 4" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 5" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 6" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 7" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 8" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 9" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	}
+	ship = { name = "AS Ghawassa 10" definition = submarine equipment = { submarine_1 = { amount = 10 owner = ARA version_name = "Submarine I"}	}	} }  } } }
+			
+			 
+
+

@@ -1,0 +1,25 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		1955 10791 10850 12702 
+	}
+	resources={
+		oil=35.000
+	}
+	history = {
+		owner = ARA
+		add_core_of = ARA
+		buildings = {
+			infrastructure = 3
+			12702 = {
+				naval_base = 6
+
+			}
+		}
+	}
+	manpower=2430900
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

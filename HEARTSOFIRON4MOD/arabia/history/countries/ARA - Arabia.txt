@@ -1,0 +1,223 @@
+﻿capital = 554
+
+OOB = "ARA_1936"
+
+set_stability = 0.4
+set_war_support = 0.2
+set_research_slots = 3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fighter1 = 1
+	CAS1 = 1
+	fuel_silos = 1
+	gwtank = 1
+	basic_light_tank = 1
+	motorised_infantry = 1
+	basic_train = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_carrier = 1
+	transport = 1	
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+		basic_dp_light_battery = 1
+	}
+}
+set_naval_OOB = "ARA_1936_naval"
+
+if = {
+	
+	add_ideas = {
+	arab_persian_tension        ###War support minus 5####
+	ARA_heavyindustry ##Consum goods factories 20%, cons speed plus 20%, war supp -5, pp##
+	ARA_sunnishia     ####Stability -10%, rec pop fac -5%###
+	ARA_islam	####Defense/attack on cores +20%, pp gain +0.4####
+	ARA_population_boom
+	} 	
+
+}
+
+set_convoys = 200
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "ARA_1939"
+	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
+		tech_support = 1
+		tech_recon = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_refining = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 20
+	neutrality = 80
+}
+
+create_country_leader = {
+	name = "Faisal I"
+	desc = "POLITICS_GHAZI_I_DESC"
+	picture = "portrait_ara_faisal.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Faisal I"
+	desc = ""
+	picture = "portrait_ara_faisal.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yusuf Salman Yusuf"
+	desc = ""
+	picture = "portrait_ara_yusuf.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+recruit_character = ARA_ghazi
+recruit_character = ARA_abdalilah
+recruit_character = ARA_qasim
+recruit_character = ARA_hashimi
+recruit_character = ARA_sidqi
+recruit_character = ARA_alaskari
+recruit_character = ARA_shabib
+recruit_character = ARA_alsaid
+recruit_character = ARA_sulayman
+recruit_character = ARA_salman
+recruit_character = ARA_dabbagh
+create_field_marshal =  {
+name = "Faisal I"
+picture = "portrait_ara_faisal.dds"
+traits = { desert_fox politically_connected }
+skill = 2
+attack_skill = 2
+defense_skill = 2
+planning_skill = 2
+logistics_skill = 2
+id = 555
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 30
+		neutrality = 70
+	}
+
+	create_country_leader = {
+		name = "Ghazi"
+		desc = "POLITICS_FAISAL_II_DESC"
+		picture = "portrait_irq_ghazi"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			#
+		}
+	}
+}

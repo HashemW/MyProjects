@@ -1,0 +1,269 @@
+characters={
+	ARA_ghazi={
+		name = "Ghazi I"
+		portraits={
+			civilian = {
+				large=GFX_portrait_ARA_ghazi
+				small=idea_ghazi
+			}	
+			army={
+				large=GFX_portrait_ARA_ghazi
+				small=idea_ghazi
+			}
+		}
+		advisor={
+			slot = navy_chief
+			allowed = {
+				original_tag = ARA
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+		}
+		country_leader={
+			ideology = conservatism
+			expire = "1965.1.1"
+			traits = {
+				#
+			}
+		}
+		navy_leader={
+			traits = { bold ironside }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 3
+				manuevering_skill = 2
+				coordination_skill = 2
+		}
+	}
+	ARA_abdalilah={
+		name = "'Abd al-Ilah"
+		portraits={
+			army={
+				large=GFX_portrait_ARA_abdalilah
+				small=idea_abdalilah
+			}
+			civilian={
+				large=GFX_portrait_ARA_abdalilah
+				small=idea_abdalilah
+			}
+		}
+		advisor={
+			slot = army_chief
+			allowed = {
+				original_tag = ARA
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			
+		}
+		field_marshal={
+			traits = { desert_fox brilliant_strategist war_hero }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ARA_qasim={
+		name="Abd al Karim Qasim"
+		portraits={
+			army={
+				large=GFX_portrait_qasim
+				small=idea_qasim
+			}
+			civilian={
+				large=GFX_portrait_qasim
+				small=idea_qasim
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			allowed = {
+				original_tag = ARA
+			}
+			traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			traits = { desert_fox politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+
+	}
+	ARA_hashimi={
+		name="Yasin al Hashimi"
+		portraits={
+			army={
+				large=GFX_portrait_ARA_hashimi
+				small=idea_hashimi
+			}
+			civilian={
+				large=GFX_portrait_ARA_hashimi
+				small=idea_hashimi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			allowed={
+				original_tag = ARA
+			}
+			traits = { captain_of_industry }
+		}
+		
+	}
+	ARA_sulayman={
+		name="Hikmat Sulayman"
+		portraits={
+			army={
+				large=GFX_portrait_ARA_sulayman
+				small=idea_sulayman
+			}
+			civilian={
+				large=GFX_portrait_ARA_sulayman
+				small=idea_sulayman
+			}
+		}
+		advisor={
+			slot = political_advisor
+			allowed = {
+				original_tag = ARA
+			}
+			traits = { popular_figurehead }
+		}
+	}
+	ARA_alsaid={
+		name="Nuri al-Said"
+		portraits={
+			army={
+				large = GFX_portrait_ARA_alsaid
+				small = idea_alsaid
+			}
+			civilian={
+				large = GFX_portrait_ARA_alsaid
+				small = idea_alsaid
+			}	
+		}
+		advisor={
+			slot = political_advisor
+			allowed = {
+				original_tag = ARA
+			}
+			traits = { backroom_backstabber }
+		}
+	}
+	ARA_sidqi={
+		name="Bakr Sidqi"
+		portraits={
+			army={
+				large=GFX_portrait_ARA_sidqi
+				small=idea_sidqi
+			}
+		}
+		advisor={
+			slot = high_command
+			allowed = {
+				original_tag = ARA
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+		}
+		corps_commander={
+			traits= {}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			logistics_skill = 2
+			planning_skill = 2
+		}
+	}
+	ARA_alaskari={
+		name="Jafar al Askari"
+		portraits={
+			army={
+				large=GFX_portrait_ARA_alaskari
+				small=idea_alaskari
+			}
+			civilian={
+				large=GFX_portrait_ARA_alaskari
+				small=idea_alaskari
+			}
+		}
+		advisor={
+			slot = high_command
+			allowed = {
+				original_tag = ARA
+			}
+			traits = {
+				army_commando_1
+			}
+			cost = 50
+		}
+		corps_commander={
+			traits = { old_guard }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ARA_dabbagh={
+		name="Khalil Jassim Dabbagh"
+		portraits={
+			army={
+				large=GFX_portrait_ARA_dabbagh
+				small=idea_dabbagh
+			}
+			civilian={
+				large=GFX_portrait_ARA_dabbagh
+				small=idea_dabbagh
+			}
+		}
+		advisor={
+			slot = theorist
+			allowed = {
+				original_tag = ARA
+			}
+			traits = { superior_firepower_expert }
+			cost = 150
+		}
+		corps_commander={
+			traits={ brilliant_strategist career_officer armor_officer infantry_officer }
+			skill = 2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+		}
+	}	
+	ARA_salman={
+		name="Mahmud Salman"
+		portraits={
+			army={
+				large=GFX_portrait_ARA_salman
+				small=idea_salman
+			}
+		}
+		advisor={
+			slot = air_chief
+			allowed = {
+				original_tag = ARA
+			}
+			traits = { air_chief_ground_support_2 }
+			cost = 100
+		}
+	}				
+}

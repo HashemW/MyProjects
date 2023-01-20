@@ -1,0 +1,176 @@
+﻿
+add_namespace = arabia
+
+
+country_event = {
+	id = arabia.1
+	title = arabia.1.t	
+	desc = arabia.1.d	
+	picture = GFX_report_event_stalin_meeting
+	mean_time_to_happen = { days = 2 }
+	is_triggered_only = yes	
+	option = {
+		name = arabia.1.a 
+		ai_chance = {
+			base = 100
+		}
+		SOV = {
+			add_to_faction = ARA
+		}
+		hidden_effect = {
+			ARA = {
+				country_event = { id = arabia.2 }
+			}
+		}
+	}
+	
+	option = {
+		name = arabia.1.b 
+		ai_chance = {
+			base = 0
+		}
+		hidden_effect = {
+			ARA = {
+				country_event = { id = arabia.3 }
+			}
+		}
+	}
+}
+country_event = {
+	id = arabia.2
+	title = arabia.2.t
+	desc = arabia.2.d
+	picture = GFX_report_event_stalin_meeting
+	is_triggered_only = yes
+	option = {
+	name = arabia.2.a
+	}
+}
+country_event = {
+	id = arabia.3
+	title = arabia.3.t
+	desc = arabia.3.d
+	picture = GFX_report_event_stalin_meeting
+	is_triggered_only = yes
+	option = {
+	name = arabia.3.a 
+	}
+}
+country_event = {
+	id = arabia.4
+	title = arabia.4.t
+	desc = arabia.4.d
+	picture = GFX_decision_cat_generic_arabia
+	is_triggered_only = yes
+	option = {
+		name = arabia.4.a 
+		ai_chance = { base = 100 }
+		ARA = { 
+			transfer_state = 453
+			transfer_state = 446
+			transfer_state = 457
+			transfer_state = 456
+			transfer_state = 447
+			transfer_state = 452
+			transfer_state = 552
+			transfer_state = 767
+			transfer_state = 551
+			transfer_state = 549
+			transfer_state = 665
+			transfer_state = 458
+			transfer_state = 460
+			transfer_state = 513
+			transfer_state = 459
+			transfer_state = 461
+			transfer_state = 462
+			transfer_state = 514
+			transfer_state = 907
+			transfer_state = 883
+			transfer_state = 886
+			
+		}
+		ENG = {
+			add_to_faction = ARA
+		}
+		hidden_effect = {
+			ARA = {
+				country_event = { id = arabia.5 }
+			}
+		}
+	}
+	option = {
+	name = arabia.4.b
+	ai_chance = { base = 0 }
+	hidden_effect = {
+	ARA = {
+		country_event = { id = arabia.6 }
+		}
+	}
+	}
+}
+
+country_event = {
+	id = arabia.5
+	title = arabia.5.t
+	desc = arabia.5.d
+	picture = GFX_decision_cat_generic_arabia
+	is_triggered_only = yes
+	option = {
+	name = arabia.5.a 
+	}
+}
+country_event = {
+	id = arabia.6
+	title = arabia.6.t
+	desc = arabia.6.d
+	picture = GFX_decision_cat_generic_arabia
+	is_triggered_only = yes
+	option = {
+		name = arabia.6.a 
+	}
+}
+country_event = {
+	id = arabia.7
+	title = arabia.7.t
+	desc = arabia.7.d
+	picture = GFX_report_event_generic_research_lab
+	is_triggered_only = yes
+	option = {
+	name = arabia.7.a 
+	add_tech_bonus = {
+	name = nuclear_bonus
+	bonus = 1.0
+	uses = 2
+	category = nuclear
+		}
+	}
+}
+country_event = {
+		id = arabia.8
+		title = arabia.8.t
+		desc = arabia.8.d
+		picture = GFX_news_event_journalists_speech
+		is_triggered_only = yes
+		option = {
+		name = arabia.8.a 
+		add_ideas = ARA_medication_effort
+		}
+}
+country_event = {
+		id = arabia.9
+		title = arabia.9.t
+		desc = arabia.9.d
+		picture = GFX_news_event_soldiers_marching
+		is_triggered_only = yes
+		option = {
+		name = arabia.9.a 
+		add_ideas = ARA_military_academies
+		}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+
+state={
+	id=554
+	name="STATE_554"
+	manpower = 2543620
+	
+	state_category = metropolis
+
+	history={
+		owner = ARA
+		victory_points = {
+			4111 30
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 8
+		}
+		add_core_of = ARA	
+
+	}
+
+
+	provinces={
+		1074 4111 4486 4550 7184 
+	}
+
+	local_supplies=2.0 
+}

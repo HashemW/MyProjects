@@ -1,0 +1,426 @@
+ideas = {
+	country = {
+		arab_persian_tension = {	
+			allowed = {
+				original_tag = ARA
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.1
+			}
+		}
+
+		ARA_heavyindustry = {
+			allowed = {
+				original_tag = ARA
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.2
+				war_support_factor = -0.05
+				production_speed_buildings_factor = 0.2
+			}
+		}
+
+		ARA_sunnishia = {
+			allowed = {
+				original_tag = ARA
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = -0.1
+			}
+		}
+
+		ARA_islam = {
+			allowed = {
+				original_tag = ARA
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		ARA_heavyindustry2 = {
+			allowed = {
+				original_tag = ARA
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.25
+				war_support_factor = -0.05
+				production_speed_buildings_factor = 0.2
+			}
+		}
+
+		ARA_factory_incentives = {
+			allowed = {
+				original_tag = ARA
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		
+		ARA_infantry_production = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+		ARA_infantry_recruitment1 = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+		ARA_commie_influence = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}		
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.2
+			}
+		}
+		
+		ARA_partisans_n_stuff = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				compliance_gain = 0.05
+				resistance_damage_to_garrison = -0.2
+			}
+		}
+
+		ARA_research_speed = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.1
+				
+			}
+		}
+		
+		ARA_construction_speed_communist = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		ARA_our_lessons = {
+			allowed = {
+			original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_org = 10
+			}
+		}
+
+		ARA_autocratic_caliphate = {
+			allowed = {
+			original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				neutrality_drift = 0.2
+			}
+		}
+
+		ARA_british_assistance = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				decryption_factor = 0.01
+				encryption_factor = 0.01
+			}
+		}
+
+		ARA_french_assistance = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			 	army_morale_factor = 0.1
+			}
+		}
+
+		ARA_population_boom = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1 
+			modifier = {
+			 	consumer_goods_factor = 0.1
+			}
+		}
+
+		ARA_our_lessons_2 = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_org = 10
+			}
+		}
+			
+		ARA_rebuild_baghdad = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = 0.2
+			}
+		}
+
+		ARA_fascist_caliphate1 = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				fascism_drift = 0.2
+			}
+		}
+
+		ARA_german_assistance1 = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = { 
+				army_org_factor = 0.05
+				planning_speed = 0.1
+				army_speed_factor = 0.15 
+			}
+		}
+
+		ARA_personality_cult = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription = 0.01
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		ARA_islamic_identity = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				conscription = 0.05
+			}
+		}
+
+		ARA_democratacy = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				democratic_drift = 0.2
+			}
+		}
+
+		ARA_rebuild_baghdad_2 = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.1
+				stability_factor = 0.2
+			}
+		}
+
+		ARA_closer_to_glory = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.15
+				stability_factor = 0.2
+			}
+		}
+
+		ARA_medication_effort = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.6
+				experience_loss_factor = -0.1
+			}
+		}
+
+		ARA_military_academies = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				offence = 0.1
+				defence = 0.1 
+				army_leader_start_level = 2
+			}
+		}
+
+		ARA_islam_glory_rebuilt = {
+			allowed = {
+				original_tag = ARA
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.2
+				stability_factor = 0.2
+			}
+		}
+	}
+}
+
+
+		
+
+
